@@ -3,63 +3,28 @@
 ## Method
 ![Figure](assets/css/schema.svg)
 
-## In-the-wild Renders
+## Renders
 <center>
     <div>
 <!--         <video width="30%" height="30%" autoplay muted loop playsinline>
-            <source src="assets/css/brandenburg.mp4" type="video/mp4" style="display: inline-block;">
+            <source src="assets/css/Ours-Decode-pre-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video> -->
         <video width="30%" height="30%" autoplay muted loop playsinline>
-            <source src="assets/css/sacre.mp4" type="video/mp4" style="display: inline-block;">
+            <source src="assets/css/Ours-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video>
         <video width="30%" height="30%" autoplay muted loop playsinline>
-            <source src="assets/css/trevi.mp4" type="video/mp4" style="display: inline-block;">
+            <source src="assets/css/RGB-Triplanes.mp4" type="video/mp4" style="display: inline-block;">
+            Your browser does not support the video tag.
+        </video>
+        <video width="30%" height="30%" autoplay muted loop playsinline>
+            <source src="assets/css/Vanilla-VAE-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video>
     </div>
 </center>
 
-## Synthetic Renders
-<center>
-    <div>
-        <video width="23%" height="23%" autoplay muted loop playsinline>
-            <source src="assets/css/chair.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video>
-        <video width="23%" height="23%" autoplay muted loop playsinline>
-            <source src="assets/css/drums.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video>
-        <video width="23%" height="23%" autoplay muted loop playsinline>
-            <source src="assets/css/ficus.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video>
-        <video width="23%" height="23%" autoplay muted loop playsinline>
-            <source src="assets/css/hotdog.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-    <div>
-        <video width="23%" height="23%" autoplay muted loop playsinline>
-            <source src="assets/css/lego.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video>
-        <video width="23%" height="23%" autoplay muted loop playsinline>
-            <source src="assets/css/materials.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video>
-        <video width="23%" height="23%" autoplay muted loop playsinline>
-            <source src="assets/css/mic.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video>
-        <video width="23%" height="23%" autoplay muted loop playsinline>
-            <source src="assets/css/ship.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video>
-    </div>
-</center>
 
 ## Citation
 ```
