@@ -5,20 +5,44 @@ Our method reduces effective per-scene memory costs by 44% and per-scene time co
 ![Figure](assets/css/schema.svg)
 
 ## Renders
+
+Visual comparison of renderings of our method and vanilla Tri-Planes trained in the image space.
+
+### Our method
 <center>
     <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
             <source src="assets/css/Ours-Decode-pre-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video> <br>
-        <video width="60%" height="60%" autoplay muted loop playsinline>
-            <source src="assets/css/Ours-Encode.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video> <br>
+    </div>
+</center>
+
+### Tri-Planes (RGB)
+<center>
+    <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
             <source src="assets/css/RGB-Triplanes.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video> <br>
+    </div>
+</center>
+
+Visual comparison when training Tri-Planes on latent images coming from our 3Da-AE and the vanilla VAE.
+
+### Our method (Encode-Scene only)
+<center>
+    <div>
+        <video width="60%" height="60%" autoplay muted loop playsinline>
+            <source src="assets/css/Ours-Encode.mp4" type="video/mp4" style="display: inline-block;">
+            Your browser does not support the video tag.
+        </video> <br>
+    </div>
+</center>
+
+### Vanilla VAE (Encode-Scene only)
+<center>
+    <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
             <source src="assets/css/Vanilla-VAE-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
