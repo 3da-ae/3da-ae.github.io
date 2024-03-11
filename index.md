@@ -4,6 +4,8 @@ Our method reduces effective per-scene memory costs by 44% and per-scene time co
 ## Method
 ![Figure](assets/css/schema.svg)
 
+We learn a 3D-aware latent space by regularizing its training with 3D constraints. To this end, we jointly train the encoder $E_\phi$, the decoder $D_\psi$ and $N$ scenes lying in this latent space. For each scene $s$, we learn a Tri-Planes representation $T_{s}$, built from the concatenation of local Tri-Planes $T_s^{mic}$ and global Tri-Planes $T_s^{mac}$. $T_s^{mic}$ is retrieved via a one-hot vector $e_s$ from a set of scene-specific planes stored in memory. $T_s^{mac}$ is computed from a summation of $M$ globally shared Tri-Planes, weighted with weights $W_s$.
+
 ## Renders
 
 Visual comparison of renderings of our method and vanilla Tri-Planes trained in the image space.
