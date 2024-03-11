@@ -8,47 +8,45 @@ We learn a 3D-aware latent space by regularizing its training with 3D constraint
 
 ## Renders
 
-Visual comparison of renderings of our method and vanilla Tri-Planes trained in the image space.
-
-### Our method
+### Visual comparison of renderings of our method and vanilla Tri-Planes trained in the image space.
 <center>
     <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
             <source src="assets/css/Ours-Decode-pre-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video> <br>
+        Our method
     </div>
 </center>
 
-### Tri-Planes (RGB)
 <center>
     <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
             <source src="assets/css/RGB-Triplanes.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video> <br>
+        Tri-Planes (RGB)
     </div>
 </center>
 
-Visual comparison when training Tri-Planes on latent images coming from our 3Da-AE and the vanilla VAE.
-
-### Our method (Encode-Scene only)
+### Visual comparison when training Tri-Planes on latent images coming from our 3Da-AE and the vanilla VAE.
 <center>
     <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
             <source src="assets/css/Ours-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video> <br>
+        Our method (Encode-Scene only)
     </div>
 </center>
 
-### Vanilla VAE (Encode-Scene only)
 <center>
     <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
             <source src="assets/css/Vanilla-VAE-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video>
+        Vanilla VAE (Encode-Scene only)
     </div>
 </center>
 
