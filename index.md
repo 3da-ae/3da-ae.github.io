@@ -45,7 +45,7 @@ We learn a 3D-aware latent space by regularizing its training with 3D constraint
         <video width="60%" height="60%" autoplay muted loop playsinline>
             <source src="assets/css/Vanilla-VAE-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
-        </video>
+        </video> <br>
         Vanilla VAE (Encode-Scene only)
     </div>
 </center>
