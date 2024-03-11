@@ -2,7 +2,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-title: "RefinedFields: Radiance Fields Refinement for Unconstrained Scenes"
-description: "Karim Kassab, Antoine Schnepf, Jean-Yves Franceschi, Laurent Caraffa, Jeremie Mary, Valérie Gouet-Brunet"
+title: "Exploring 3D-aware Latent Spaces for Efficiently Learning Numerous Scenes"
+description: "Anonymous Authors"
 
-show_downloads: true
+show_downloads: True
