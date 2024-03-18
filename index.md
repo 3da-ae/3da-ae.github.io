@@ -6,9 +6,11 @@ Our method reduces effective per-scene memory costs by 44% and per-scene time co
 
 We learn a 3D-aware latent space by regularizing its training with 3D constraints. To this end, we jointly train an encoder, a decoder and N scenes lying in this latent space. For each scene s, we learn a Tri-Planes representation T<sub>s</sub>, built from the concatenation of local Tri-Planes T<sub>s</sub><sup>mic</sup> and global Tri-Planes T<sub>s</sub><sup>mac</sup>. T<sub>s</sub><sup>mic</sup> is retrieved via a one-hot vector e<sub>s</sub> from a set of scene-specific planes stored in memory. T<sub>s</sub><sup>mac</sup> is computed from a summation of M globally shared Tri-Planes, weighted with weights W<sub>s</sub>.
 
-## Renders
+## Learning scenes with 3Da-AE
 
-### Visual comparison of renderings of our method and vanilla Tri-Planes trained in the image space.
+After training a 3D-aware autoencoder, we utilize it to train Tri-Plane scene representations in its latent space.
+
+### Comparison of Latent Tri-Planes and Tri-Planes (RGB)
 <center>
     <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
@@ -29,14 +31,14 @@ We learn a 3D-aware latent space by regularizing its training with 3D constraint
     </div>
 </center>
 
-### Visual comparison when training Tri-Planes on latent images coming from our 3Da-AE and the vanilla VAE.
+### Comparison of Latent Tri-Planes: 3Da-AE vs baseline AE
 <center>
     <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
             <source src="assets/css/Ours-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video> <br>
-        Our method (Encode-Scene only)
+        3Da-AE (ours)
     </div>
 </center>
 
@@ -46,7 +48,7 @@ We learn a 3D-aware latent space by regularizing its training with 3D constraint
             <source src="assets/css/Vanilla-VAE-Encode.mp4" type="video/mp4" style="display: inline-block;">
             Your browser does not support the video tag.
         </video> <br>
-        Vanilla VAE (Encode-Scene only)
+        Baseline AE
     </div>
 </center>
 
