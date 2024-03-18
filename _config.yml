@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: "Exploring 3D-aware Latent Spaces <br> for Efficiently Learning Numerous Scenes"
-description: "Antoine Schnepf^*, Karim Kassab^*, Jean-Yves Franceschi, Laurent Caraffa, Flavian Vasile, Jeremie Mary, Andrew Comport, Valérie Gouet-Brunet"
+description: "Antoine Schnepf<sup>*</sup>, Karim Kassab<sup>*</sup>, Jean-Yves Franceschi, Laurent Caraffa, <br> Flavian Vasile, Jeremie Mary, Andrew Comport, Valérie Gouet-Brunet"
 
 show_downloads: True
