@@ -10,27 +10,6 @@ We learn a 3D-aware latent space by regularizing its training with 3D constraint
 
 After training a 3D-aware autoencoder, we utilize it to train Tri-Plane scene representations in its latent space.
 
-### Comparison of Latent Tri-Planes and RGB Tri-Planes
-<center>
-    <div>
-        <video width="60%" height="60%" autoplay muted loop playsinline>
-            <source src="assets/css/Ours-Decode-pre-Encode.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video> <br>
-        Our method
-    </div>
-</center>
-
-<center>
-    <div>
-        <video width="60%" height="60%" autoplay muted loop playsinline>
-            <source src="assets/css/RGB-Triplanes.mp4" type="video/mp4" style="display: inline-block;">
-            Your browser does not support the video tag.
-        </video> <br>
-        Tri-Planes (RGB)
-    </div>
-</center>
-
 ### Comparison of Tri-Planes trained in our 3D-aware latent space and the baseline latent space
 <center>
     <div>
@@ -52,6 +31,29 @@ After training a 3D-aware autoencoder, we utilize it to train Tri-Plane scene re
     </div>
 </center>
 
+As illustrated above, our latent space is well suited for learning 3D scenes. 
+To maximize the rendering quality in the image space, we proceed with a quick fine-tuning of the decoder, which we illustrate below with a comparison to RGB Tri-Planes.
+
+### Comparison of Latent Tri-Planes and RGB Tri-Planes
+<center>
+    <div>
+        <video width="60%" height="60%" autoplay muted loop playsinline>
+            <source src="assets/css/Ours-Decode-pre-Encode.mp4" type="video/mp4" style="display: inline-block;">
+            Your browser does not support the video tag.
+        </video> <br>
+        Our method
+    </div>
+</center>
+
+<center>
+    <div>
+        <video width="60%" height="60%" autoplay muted loop playsinline>
+            <source src="assets/css/RGB-Triplanes.mp4" type="video/mp4" style="display: inline-block;">
+            Your browser does not support the video tag.
+        </video> <br>
+        Tri-Planes (RGB)
+    </div>
+</center>
 
 ## Citation
 ```
