@@ -10,7 +10,7 @@ We learn a 3D-aware latent space by regularizing its training with 3D constraint
 
 After training a 3D-aware autoencoder, we utilize it to train Tri-Plane scene representations in its latent space.
 
-### Comparison of Latent Tri-Planes and Tri-Planes (RGB)
+### Comparison of Latent Tri-Planes and RGB Tri-Planes
 <center>
     <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
@@ -31,7 +31,7 @@ After training a 3D-aware autoencoder, we utilize it to train Tri-Plane scene re
     </div>
 </center>
 
-### Comparison of Latent Tri-Planes: 3Da-AE vs baseline AE
+### Comparison of Tri-Planes trained in our 3D-aware latent space and the baseline latent space
 <center>
     <div>
         <video width="60%" height="60%" autoplay muted loop playsinline>
