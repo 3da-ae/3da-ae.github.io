@@ -57,13 +57,6 @@ To maximize the rendering quality in the image space, we proceed with a quick fi
 
 ## Citation
 ```
-@article{,
-  title={},
-  author={},
-  journal={},
-  year={}
-}
-
 @article{schnepf2024exploring,
       title={Exploring 3D-aware Latent Spaces for Efficiently Learning Numerous Scenes}, 
       author={Antoine Schnepf and Karim Kassab and Jean-Yves Franceschi and Laurent Caraffa and Flavian Vasile and Jeremie Mary and Andrew Comport and Valérie Gouet-Brunet},
